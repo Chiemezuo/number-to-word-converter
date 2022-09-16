@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number converter</title>
+    <script src="frontend.js" defer></script>
+    <link rel="stylesheet" href="frontend.css">
+</head>
+<body>
+    <form action="http://localhost:3000" method="get" id="form">
+        <input type="number" name="number" autocomplete="off"
+             required autofocus placeholder="Put in a number less than 1 trillion">
+        <button type="submit" id="button">Convert</button>
+    </form>
+    <div id="display-area">
+
+    </div>
+</body>
+</html>
